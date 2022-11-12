@@ -1,0 +1,206 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc} % comment when using lualatex
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref,xcolor}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+
+% Bibliography management
+%  see https://www.overleaf.com/learn/latex/Biblatex_citation_styles
+%  and https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX
+
+ 
+
+% Title of your study
+\title{Blockchain Indexing with Carbon Footprint and Credit}
+
+% Your name
+\author{Akshat \textsc{Pande}}
+
+% Your supervisor
+\newcommand{\supervisors}{Theodoros \textsc{Constantinides}}
+
+
+% Time period for the study
+%    Autumn project?, Master's thesis?, Autumn and master?, Other? What?
+\newcommand{\timePeriod}{Dissertation [October - December]}
+
+% Amount of resources in PM planned
+% E.g. 20 hours x week for autumn project 
+% + 40 hours x week for the master thesis (a semester is normally 14 weeks)
+\newcommand{\resourcesPlanned}{600 hours}
+
+ % Web address for the project (if any)
+\newcommand{\homepage}{\url{https://www.bristol.ac.uk/}}
+
+% Date for title page, default is today
+\date{\today}
+
+\makeatletter{}
+
+\begin{document}
+
+% Your research plan follows in the next page. Your final deliverable should be:
+%     • A maximum of four pages, including this front page.
+%     • The three pages following this front page should include everything: figures, tables, references.
+%     • The total word count should not exceed 1200 words. So do not try to reduce the size of the font or line spacing to get more text into those three pages.
+%     • When you are finished and before you deliver, you can delete all the help text, which is gray and is in cursive like this text. 
+
+\input{./title.tex}
+
+% This plan is based on the 6Ps of research as described in Oates, Dr Briony J (2005). Researching Information Systems and Computing. SAGE Publications, enhanced based on Creswell, J. W. (2014). Research design- Qualitative, quantitative, and mixed methods approaches (4th ed.). SAGE Publications. Version of September 2019.
+
+\section*{Abstract}
+
+
+With its initial development in 2008, Blockchain has come a long way from a basic ledger system for cryptocurrencies like bitcoin to the foundational technology for decentralizing existing institutions through every sector, from governance to supply chain. The technology does come with its fair share of concerns; however essential for its operations. The carbon footprint for these operations is due to their run-time, requirements, functions/features, and future scope. As the technology with the primary application is feasible decentralization of institutions, paving the path through sustainability requires a proper understanding of how the operations affect the climate and how they can help it. This paper examines the effects of blockchain operations on sustainability and climate change, reverse engineering algorithms under this technology regarding their carbon footprint, and models for indexing companies using characteristics of blockchain organizations and concepts of carbon credit and their feasibility in the future. 
+Carbon credits or carbon offsets permit an organization to carbon emissions due to their operation. These can be bought or earned through various methods that help reduce carbon through tree plantation, avoidance measures, or exchanges. 
+
+This paper examines the various operations of Blockchain, evaluates and measures carbon footprints through operations, and plausible models of carbon credits. It further aims to build sustainable indexing based on the carbon footprint for organizations for incentives on investments and social image. Finally, outlining the future scope for minimal requirements in developments for better sustainable products and functionalities for improving current standardized operations.
+
+\newpage 
+
+\section*{Project Plan}
+
+\subsection*{Introduction}
+This paper examines blockchain operations based on the underlying algorithm, functionality, run-time requirements, resource requirements, and future scopes. The core method for examination includes evaluating and measuring carbon footprint and building plausible models using carbon credits to offset the damages. Hence, the paper aims to build indexing for companies for investment and social images by examining carbon footprint and carbon credit models and building a sustainable methodology for current and future blockchain organizations. 
+
+Blockchain is a decentralized and distributed ledger shared among participating nodes for immutability, transparency, and high security. The operational requirements lead to high energy consumption for the core organization and the participating nodes, including the energy required for mining based on the consensus algorithm, network sharing, and storage requirements for processing and procuring the next steps. The energy consumption of the operations affects climate change leading to negative attention towards blockchain through public purview. Moreover, as a disruptive technology, its use cases are underway for decentralizing existing institutions while providing operational benefits to multiple existing models. /GreenBlockchain
+
+\subsubsection*{Carbon Footprint} 
+
+Carbon footprint is the procedure to calculate an organization's carbon emissions throughout its essential operations' lifecycle, assisting towards its reduction and innovation to improve towards more sustainable operations. The current standard for calculating carbon footprint is evaluating emissions through the supply chain and employing organizations specifically for calculating the footprint, leading to an immense paper trail, costs, and time-consuming procedures for better accuracy. \cite{hu_framework_2019}
+
+The carbon footprint has become essential since the Paris agreement in 2015, which is a legally binding framework for countries to limit the "increase in the global average temperature to 2°C above the preindustrial level, and to pursue an effort to limit such increase to 1.5°C." This framework has significant impacts on governments, policymakers, households and consumers, corporations, and investors, the challenges pertaining to duty, risk, and opportunity for the future. \cite{de_franco_carbon_2018}
+
+\subsubsection*{Carbon Credit} 
+
+In accordance with the Paris Agreement mentioned before, the plausible solution to reducing carbon emissions on a national level was to add a controlling factor. The control factor could be through companies paying a tax for their emissions, or add a limit to emissions on the companies, which can be reduced sustainably over time, or introducing a trading scheme for emissions and sustainability. This led to the existence of carbon credits or carbon emission permits that can be exchanged by an organization for continuous production and must need time to shift towards sustainable methods.  \cite{franke_designing_2020}
+
+The opportunities that carbon credits bring out as an investment for the future assist developing countries with the time and resources to provide incentives for sustainable methods while conforming to the agreement to deal with climate change. The current form of carbon credit is through a voluntary market for emission reduction or through a regulatory framework for offsetting emissions from a project. However, blockchain technology can provide an edge to the work of carbon credits to be more fair and decentralized with automated functionality for transparent transfer and emission calculation. \cite{ashley_establishing_2018}
+
+\subsubsection*{Carbon Indexing} 
+
+This paper, with the evaluation of carbon footprint and the existence of carbon credits, develops carbon-based indexing for Blockchain-based companies or companies employing Blockchain as their means of operation for core functionalities. This index helps in adding incentives for the organization to quickly shift towards a more sustainable approach while can work for start-ups for building better methods using alternative energies and racking up carbon credits to be invested. The indexing is going to be primarily based on the correlation between the existing carbon footprint with the carbon credit and sustainability rating for the organization. Hence, giving an edge to sustainable companies based on carbon footprints compared to companies that are not sustainable. \cite{crane_passive_2018}
+
+\newpage 
+
+\subsection*{Research Aim, Objectives and Question}
+
+\subsubsection*{Aim}
+Evaluating and measuring carbon footprint for blockchain operations and researching carbon credits and its role for investment with an carbon-based indexing framework.
+
+\subsubsection*{Objectives} 
+
+- Measuring and evaluating carbon emission due to consensus algorithm \newline
+- Measuring and evaluating carbon emission due to use-cases  \newline
+- Design changes and sustainable operations for different use-cases.  \newline
+- Role of participant nodes in carbon footprint for an organisation  \newline
+- Carbon credit framework for blockchain  \newline
+- Carbon footprint and carbon credit smart contract design \newline
+- Carbon indexing framework development and testing procedure.  \newline
+- Application and future scope  \newline
+
+\subsubsection*{Questions} 
+
+- Is it possible to design a framework for carbon footprint on blockchain based companies? \newline
+- What are the factors that are not evaluated through technical methods? How to evaluate these methods through internal or external methods? \newline
+- What role does transparency and immutability play in carbon footprint using blockchain operations? \newline
+- How feasible are carbon credits for the future? What is hampering its development? What innovations can help to reduce the growth? \newline
+- Are carbon footprint based indexes feasible for investments? What factors are included for the index? \newline
+- Do smart contract design strategies for sustainable development and processing apply to most use-cases? \newline
+- What is the future for carbon credits, carbon-based indexes using carbon footprints and sustainability with blockchain? \newline
+ 
+
+
+
+\newpage
+
+\section*{Literature Review}
+The coherent and relevant literature to support and guide this paper has been divided into five main sections to sustain readability and segmenting for ease of understanding of different parts of the paper.
+
+\subsection*{Blockchain Innovation}
+
+Blockchain is a decentralized and distributed ledger with consensus protocols that are carried out through the nodes in the blockchain.\cite{strack_blockchain_2022} There is no authorization hierarchy in the nodes, while participating nodes can exist at any time. The features provided by a blockchain, immutability, transparency, and high security render blockchain to be attractive foundation for multiple projects. Blockchain is a disruptive technology, however it's main attraction for organisations and end-user come in the form of personalization, connectivity and simplification. Due to the structure of blockchain and its rate of adoption, the connectivity through blockchain is high-tiered, with the advent of NFT, it provides personalization and it aims to simplify existing structures by decentralizing the institution with high security. \cite{yan_insurtech_2018} 
+While blockchain started of as support for bitcoin and other cryptocurrency for transactions and security, and now is herald as a disruptive technology for decentralizing institutions, its highly profitable is transformation and assistance in current operations through the usage of blockchain technologies leading to efficient ledger based technologies with high security, including supply-chain and legal conduct frameworks for companies.\cite{kouhizadeh_blockchain_2021}
+
+\subsection*{Emission and Carbon Footprint}
+
+Carbon footprint is the procedure to calculate an organization's carbon emissions throughout its essential operations' life-cycle, assisting towards its reduction and innovation to improve towards more sustainable operations. Considering and constraining to blockchain technologies, it is possible to calculate energy consumption for each block transaction, and given its transparency and traceability, an automated model that calculates the carbon footprint on the transactions can be calculated. \cite{platt_energy_2021} While a sustainable approach towards the consensus algorithm design and the energy consumption and emission for each would help in evaluating the carbon foot print and sustainability for operations on particular blockchain.\cite{green_block} 
+
+The Paris agreement  with legal framework to be referenced by nations regarding carbon emissions and the European Green Deal, enacted to achieve climate neutrality and many other such initiatives, has lead to a shift in digital transformation. Innovation for any future technology requires a sustainability clause for the current standard of operations and a future scope with improved sustainability, other factors remain constant, including efficiency and adaptability.\cite{franke_designing_2020} 
+Considering blockchain technologies, given its identity as an energy-hungry operation due to the popularity of mining with PoW algorithm, require a more sustainable approach towards building blockchain organisation. An essential part of blockchain is in the consensus algorithm that it is based for functionality, a comparative study of these algorithm lead to a better understanding towards sustainable improvements and the effect of the changes on use-cases. \cite{radziwill_blockchain_2018} 
+
+The use-cases of blockchain can lead to a different consumption level for carbon footprint. As the operations in the blockchain, do not depend entirely on the consensus algorithm, the smart contract and its efficiency with time and space, the network and number of core and participant nodes, permission and permission-less blockchain with their benefits and shortcomings all play a weighed role in managing and evaluating the carbon footprint, which can be divided into hard and soft factors. \cite{franke_designing_2020} 
+
+Carbon footprint evaluation also contributes towards UN sustainability goals, as each organization based on blockchain can edge towards being more sustainable compared to the competition to be evaluated higher, or even for existing organisations to adopt blockchain frameworks into their operations for smoother functionality with higher sustainability. \cite{kim_blockchain_2020} These improvements increase evaluation for organisation that act as opportunities on a balanced way for both the organisation and investors. Climate change has posed lots of challenges for various sectors, while these challenges include opportunities for the path for profitable applications that can be invested in, hence acting as incentive for organisations to focus on sustainability as innovation. These improvements make such organisation better for portfolios for a cleaner future. \cite{de_franco_carbon_2018}
+
+
+\subsection*{Carbon Credits }
+
+In accordance with the Paris Agreement mentioned before, the plausible solution to reducing carbon emissions on a national level was to add a controlling factor. The control factor could be through companies paying a tax for their emissions, or add a limit to emissions on the companies, which can be reduced sustainably over time, or introducing a trading scheme for emissions and sustainability. The trading scheme for emissions was coined carbon cap-and-trade scheme or CAT. \cite{zhao_when_2020} This scheme is used in the form of carbon credits, with specific metric to evaluate how many credits correspond to how much emission. The credits can be traded between companies or markets to develop a more sustainable future with proper estimated carbon emission and usage, inclusive of other greenhouse gases and emissions that can affect climate change.  
+The existence of blockchain technology points towards permission-less carbon markets that can be used for exchange and production of carbon credits to organisation through smart contracts that work automatically based on evaluated results of an organisation. \cite{shakhbulatov_blockchain_2019} This reduces unfairness and fraud, while being automated makes it time-efficient for continuous production and gives pathways for better analysis due to blockchain based supply-chain introduction that can point out exact step of higher emissions that can be improved on to be more sustainable. \cite{jackson_networked_2018}
+
+Carbon credits also pave the path as incentives for developers and innovators due to direct profits that can be attained through these credits which can be transacted in voluntary market, invested into companies or exchanged for different tokens on existing blockchain. \cite{ashley_establishing_2018}  These financial incentives also work directly in an organization, as the previous trade-off between current and sustainable approach was usually surrounded by corporate responsibilities and sustainable development for future development, tackling climate change, etc. The carbon credits provide an instant benefit for using sustainable methods, where the value of carbon credits may change with time, its function can be transferred from organisations as it becomes sustainable to organisations that are not, for its continuous processing. \cite{ashley_establishing_2018}
+
+The process for earning carbon credits include simple reduction of carbon from the climate through plantation or other emerging technologies, while the reduction can be directly compensated, other ways of earning carbon credits provide better incentives, including technologies leading to reduction in emission leads to earning carbon credits through a regulatory framework, this can be for current projects and future projects. Even though, there is green-washing, which is companies that trade carbon credits for their emission and continue their work. Companies that are zero-carbon emission can also earn carbon credits based on their methods and sustainable approaches as incentives for other companies to go carbon-zero or carbon-negative in the future. \cite{reynolds_zero-carbon_2021}
+
+\subsection*{Carbon Indexing for Companies}
+
+As mentioned before, carbon footprint, carbon credits and sustainable improvements can act as incentives for organisations and investors. Sustainability is a mandatory responsibility for an organisation to exist, manage and serve the end-user in any form. The climate change initiatives that are undertaken for the future, contain sustainability goals and approaches, while at the same time, hamper organisation to affect climate change in the near future due to climate change being a non-trivial risk. \cite{fernandez-vazquez_blockchain_2019} The Paris agreement, European Green deal and other initiatives all proceed towards a sustainable future with negligible emissions and adverse effect through operations on the climate. This brings about an opportunity for investors and companies to design their organisations future towards a sustainable future, leading to better and safer foundations as the deadline for initiatives get closer, and these investments will pave a way through for financial viability. \cite{de_franco_carbon_2018}
+
+Blockchain technology and its adoption, not only works on easier methods for sustainability goals due to its nature and operation, it can also work as a basis for generating protocols for assuring sustainability among different organisations due to its transparency and traceability. \cite{bakarich_use_2020} To achieve this, an index fund smart contract can be used for different standards and sectors of sustainability to automate investments based on carbon credit earned or exchanged, sustainability growth and operations, and other factors that promote towards a sustainable net-zero future. Moreover, upcoming blockchain use-cases for carbon credit authorization and verification, with supply-chain operation tracking can shift the paradigm towards sustainable resources to be employed by organisation, with blockchain technology paving the way to combating climate change. \cite{strack_blockchain_2022} This include sustainability reporting and assurance, handling and automating carbon credit verification and earning through innovation, evaluating emissions through operations and maintenance via smart contracts, provide a ground for indexing of these specialized blockchain for investor growth. \cite{albano_energy_2019}
+
+
+\newpage 
+
+\bibliographystyle{ieeetr}
+\bibliography{export}
+
+\newpage
+
+\section*{Appendix A}
+\subsection*{Project Timeline}
+
+The Project Timeline developed includes dates a week before from the project plan submission to a week before the final submission, i.e., between 27th September 2022 to 13th December 2022.
+
+Hence, the project timeline is divided into approximately 9 weeks.\newline\newline
+For the timeline, we have used Gantt chart to represent the stages mentioned in the objective section, while we used scrum agile frameworks on Jira and Ayoa to keep up with the process and document the entire development.
+
+\begin{figure}[h]
+    \center
+    \includegraphics[width=1\textwidth]{Gantt.png}
+    \caption{Gantt Chart}
+    \label{fig:GanttChart}
+\end{figure}
+
+
+\newpage
+\section*{Appendix B}
+\subsection*{Risk Assessment}
+The risks are mentioned chronologically based on the sprints in the project timeline
+
+\begin{figure}[h]
+    \center
+    \includegraphics[width=1\textwidth]{Risk.png}
+    \caption{Risk Assessment}
+    \label{fig:Risk Assessment}
+\end{figure}
+
+
+\newpage
+\section*{Appendix C}
+\subsection*{Research Paradigm}
+The following figure portrays the research paradigm flow for the research project divided into 14 steps with 10 underlying procedures and 4 milestones.
+
+\begin{figure}[h]
+    \center
+    \includegraphics[width=0.8\textwidth]{Research.png}
+    \caption{Research Paradigm}
+    \label{fig:research paradigm}
+\end{figure}
+
+
+
+\end{document}
+
